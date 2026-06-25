@@ -3,7 +3,7 @@
 # A/B Test: New Page vs Old (Python, statistics)
 
 A/B test analysis for an online store: **statistical hypothesis testing** in Python.
-The question — is the new page version really better, or is the difference just chance?
+The question - is the new page version really better, or is the difference just chance?
 
 ![A/B test results](ab_result.png)
 
@@ -13,7 +13,7 @@ We test a new page version (**B**) against the old one (**A**). The task is to v
 difference is just sampling noise.
 
 ## Data
-`ab_test.csv` — 10,000 users: `group` (A/B), `converted` (0/1), `revenue`.
+`ab_test.csv` - 10,000 users: `group` (A/B), `converted` (0/1), `revenue`.
 
 ## Method
 - **Conversion** (proportion) → **two-proportion z-test** + 95% confidence interval.
